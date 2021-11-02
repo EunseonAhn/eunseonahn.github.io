@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Poppins", monospace;
   color: #0d1e2d;
 }
 
@@ -484,3 +484,4 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   display: table;
   clear: both;
 }
+

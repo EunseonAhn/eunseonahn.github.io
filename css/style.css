@@ -3,8 +3,9 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 200;
-  font-size: 1.1rem; }
+  font-size: 15px; }
 
+  
 ::-moz-selection {
   background: #000;
   color: #fff; }
@@ -1154,3 +1155,118 @@ a {
       width: 33.33%;
       padding: 10px;
     }
+
+/*style for recent works*/
+.recent-block{
+	display: none; /* Hidden by default */
+}
+
+
+.recent-des {
+	font-size: 1.1rem;
+	padding: 0px 0px;
+	/*background-color: rgba(66, 111, 163,0.1);*/
+	color:'black';
+	border-radius:10px;
+	height:160px;
+}
+
+.recent-des p {
+	line-height: 1.5;
+}
+.recent-des .caption{
+	font-size:1rem;
+	line-height: 0;
+	position:relative;
+	top:1px;
+	color:gray;
+}
+
+.widget_recent {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+}
+
+.widget_recent ul li a i {
+	background-color: #4270A3;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.widget_recent ul li a:hover i {
+	background-color: rgba(66, 111, 163,0.1);
+	color:#4270A3
+}
+
+
+.widget_recent li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+
+#recent {
+	
+	margin-top:150px;
+	margin-bottom: 150px
+}
+
+#about_img{
+	position:relative;
+	top:0;
+}
+
+a {
+	color: #4270A3;
+	font-weight: bold
+}
+
+a:hover {
+	color:#f59382;
+	text-decoration: underline;
+}
+
+.container {
+	overflow: hidden;
+  }
+  
+
+
+  /* The "show" class is added to the filtered elements */
+.show {
+	display: block;
+  }
+  
+  /* Style the buttons */
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+.btn:hover {
+	background-color: #ddd;
+  }
+  
+  /* Add a dark background to the active button */
+.btn.active {
+	background-color: #666;
+	color: white;
+  }
+
+.center {
+	margin:0 auto;
+}
